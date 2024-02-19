@@ -1,7 +1,6 @@
 // const nums = [1,2,3,4]
 const nums = [-1,1,0,-3,3]
 const productExceptSelf = function(nums) {
-    console.log(nums)
     const zeros = nums.filter(num=>num===0)
     if(zeros.length>1){
         return nums.map(num=>num=0)
